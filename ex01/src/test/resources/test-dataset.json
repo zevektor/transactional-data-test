@@ -1,0 +1,57 @@
+{
+  "meta":{
+    "view": {
+      "columns": [
+        {
+          "id" : -1,
+          "name" : "metadatafield",
+          "dataTypeName" : "meta_data",
+          "fieldName" : ":metadatafield",
+          "position" : 0,
+          "renderTypeName" : "meta_data",
+          "format" : { },
+          "flags" : [ "hidden" ]
+        }, {
+          "id" : 12345,
+          "name" : "TableId",
+          "dataTypeName" : "number",
+          "description" : "some column containing an id",
+          "fieldName" : "tableid",
+          "position" : 1,
+          "format" : {
+            "precisionStyle" : "standard",
+            "noCommas" : "false",
+            "align" : "right"
+          }
+        }, {
+          "id" : 23456,
+          "name" : "UserName",
+          "dataTypeName" : "text",
+          "description" : "the username",
+          "fieldName" : "username",
+          "position" : 2,
+          "format" : {
+            "align" : "left"
+          }
+        }, {
+          "id" : 34567,
+          "name" : "NetIncome",
+          "dataTypeName" : "number",
+          "description" : "the person net income",
+          "fieldName" : "netincome",
+          "position" : 3,
+          "format" : {
+            "precisionStyle" : "standard",
+            "noCommas" : "false",
+            "align" : "right"
+          }
+        }
+      ]
+    }
+  },
+  "data": [
+    ["metadatafieldA", 123, "myusername", 100000.0],
+    ["metadatafieldB", 234, "anotheruser", 150000.0],
+    ["metadatafieldC", 345, 300000.0]
+  ]
+}
